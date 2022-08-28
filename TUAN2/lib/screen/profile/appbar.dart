@@ -4,6 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 AppBar buildAppBar(BuildContext context) {
   return AppBar(
+    
     toolbarHeight: 50,
     leading: BackButton(
       color: Colors.black,

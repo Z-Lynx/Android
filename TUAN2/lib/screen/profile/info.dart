@@ -23,9 +23,10 @@ Widget buildAvatar() => CircleAvatar(
 Widget buildName() => Column(
       children: [
         Text(
-          "Lynn Coder",
+          " Nguyễn Trần Tiến - 310",
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
         ),
+        //( Nguyễn Trần Tiến - 310)
         SizedBox(height: 4),
         Text(
           "nguyentrantien752@gmail.com",
