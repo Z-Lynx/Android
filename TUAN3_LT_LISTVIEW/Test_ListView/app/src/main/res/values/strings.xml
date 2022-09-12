@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test_ListView</string>
+    <string name="inputText1">Enter something here</string>
+    <string name="btnAddText">Add</string>
+    <string name="btnUpdateText">Update</string>
+    <string name="add">ADD</string>
+    <string name="btnDelete">Delete</string>
+</resources>
