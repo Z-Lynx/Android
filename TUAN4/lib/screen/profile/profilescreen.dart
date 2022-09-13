@@ -1,12 +1,10 @@
-import 'package:app_tiennt/screen/profile/appbar.dart';
+import 'package:app_tiennt/utils/appbar.dart';
 import 'package:app_tiennt/screen/profile/info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({Key? key}) : super(key: key);
-
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
@@ -15,7 +13,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildAppBar(context),
+      appBar: buildAppBar(context,"Profile"),
       body: ListView(
         physics: const BouncingScrollPhysics(),
         padding: EdgeInsets.zero,
